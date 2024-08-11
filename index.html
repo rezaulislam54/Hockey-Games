@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awosome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>HOCKEYS</title>
+</head>
+<body>
+    <header class=" max-w-[1170px] mx-auto">
+        <nav class="flex justify-between  my-12 items-center ">
+            <h1 class="text-[#131318] text-4xl font-extrabold">Hockey’s</h1>
+            <div class="flex items-center gap-11 list-none">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <button class=" text-white bg-[#FF4240] px-6 py-2 rounded-lg">Get Ticket</button>
+            </div>
+        </nav>
+
+       <section>
+            <div class="carousel w-full relative">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute md:left-8 gap-x-4 md:bottom-8 flex -translate-y-1/2 transform ">
+                    <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="Images/hero.jfif" class="w-full" />
+                    <div class="absolute md:left-8 gap-x-4 md:bottom-8 flex -translate-y-1/2 transform ">
+                    <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <div class="absolute bottom-8 right-8 w[566px] bg-black rounded-lg text-white">
+                <h2 class=" text-2xl font-extrabold pl-5 pt-4">Meet all the heroes from the field</h2>
+                <p class="w-[500px] p-5 ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+            </div>
+            </div> 
+        </section>
+    </header>
+</body>
+</html>
