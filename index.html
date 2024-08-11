@@ -14,7 +14,7 @@
 </head>
 <body>
     <header class=" max-w-[1170px] mx-auto">
-        <nav class="flex justify-between  my-12 items-center ">
+        <nav class="hidden md:flex justify-between  my-12 items-center ">
             <h1 class="text-[#131318] text-4xl font-extrabold">Hockey’s</h1>
             <div class="flex items-center gap-11 list-none">
                 <li><a href="#">Home</a></li>
@@ -46,38 +46,41 @@
                     <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
                     </div>
                 </div>
-                <div class="absolute bottom-8 right-8 w[566px] bg-black rounded-lg text-white">
+            </div> 
+            <div class=" lg:absolute -bottom-36 right-14 w[566px] bg-black rounded-lg mt-4 text-white">
                 <h2 class=" text-2xl font-extrabold pl-5 pt-4">Meet all the heroes from the field</h2>
                 <p class="w-[500px] p-5 ">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
             </div>
-            </div> 
         </section>
     </header>
 
     <main class=" max-w-[1170px] mx-auto">
+
+    <!-- Profesonal section start -->
+
         <section class="my-20">
             <div class=" text-center  bg-white my-5 ">
                 <h2 class="text-4xl font-extrabold">Professional Hockeys Club</h2>
                 <p class="font-medium py-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
             </div>
 
-            <div class=" items-center md:flex-col-2 lg:flex my-12">
-                <div class="text-center">
+            <div class="md:flex-col-2 lg:flex my-12">
+                <div class="mb-6 text-center">
                     <div class="radial-progress" style="--value:87;" role="progressbar">87%</div>
                     <h2 class="text-2xl font-semibold my-3">Experienced Coach</h2>
                     <p class="">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
-                <div class="text-center">
+                <div class="mb-6 text-center">
                     <div class="radial-progress text-primary" style="--value:70;" role="progressbar">70%</div>
                     <h2 class="text-2xl font-semibold my-3">Senior Player</h2>
                     <p class="">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
-                <div class="text-center">
+                <div class="mb-6 text-center">
                     <div class="radial-progress text-yellow-400" style="--value:90;" role="progressbar">90%</div>
                     <h2 class="text-2xl font-semibold my-3">Prayer Facility</h2>
                     <p class="">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
-                <div class="text-center">
+                <div class="mb-6 text-center">
                     <div class="radial-progress text-cyan-600" style="--value:80;" role="progressbar">80%</div>
                     <h2 class="text-2xl font-semibold my-3">Training Ground</h2>
                     <p class="">Amet consectetur. Condimentum dignissim adipiscing .</p>
@@ -85,6 +88,7 @@
             </div>
         </section>
 
+    <!-- Program section start -->
 
         <section class="my-24">
             <div class=" text-center  bg-white my-10 ">
@@ -93,7 +97,7 @@
             </div>
 
             <div class="grid md:grid-cols-2  gap-5 mb-5 mx-5 md:mx-0">
-                <div class="hero h-[330px]" style="background-image:url(Images/2.png);">
+                <div class="hero h-[330px] rounded-lg" style="background-image:url(Images/2.png);">
                     <div class="hero-overlay bg-opacity-40 rounded-lg"></div>
                     <div class="p-10 pt-24 text-white">
                         <h2 class="text-3xl text-white font-extrabold">Junior Program</h2>
@@ -101,7 +105,7 @@
                         <button class=" text-white bg-[#FF4240] px-6 py-2 rounded-lg mt-6">Register Now!</button>
                     </div>
                 </div>
-                <div class="hero h-[330px]" style="background-image:url(Images/3.png);">
+                <div class="hero h-[330px] rounded-lg " style="background-image:url(Images/3.png);">
                     <div class="hero-overlay bg-opacity-40 rounded-lg"></div>
                     <div class="p-10 pt-24">
                         <h2 class="text-3xl text-white font-extrabold">Junior Program</h2>
@@ -111,9 +115,9 @@
                 </div>
             </div>        
             
-            <div class="hero relative mx-5 md:mx-0 h-[330px] rounded-lg" style="background-image:url(Images/4.png);">
+            <div class="hero hidden md:block relative mx-5 md:mx-0 h-[300px] rounded-lg" style="background-image:url(Images/4.png);">
                     <div class="hero-overlay bg-opacity-40 rounded-lg"></div>
-                    <div class="mx-5  md:absolute bottom-10 left-10">
+                    <div class="lg:mx-5  md:absolute bottom-10 left-10">
                         <h2 class="text-3xl text-white font-extrabold">Junior Program</h2>
                         <p class="text-[16px] font-normal mt-5 text-[#FFFFFF] ">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br> enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc morbi nulla. Tortor congue sed et in.</p>
                         <button class=" text-white bg-[#FF4240] px-6 py-2 rounded-lg mt-6">Register Now!</button>
@@ -121,6 +125,7 @@
                 </div>
         </section>
 
+    <!-- Our New Product Section Start -->
 
         <section class="my-24">
             <div class=" text-center  bg-white my-10 ">
@@ -128,9 +133,9 @@
                 <p class="font-medium py-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
             </div>
 
-            <div class=" grid md:grid-cols-2 gap-6">
-                <div class="md:flex md:items-center gap-5 shadow-xl rounded-lg p-5">
-                    <div><img src="Images/5.png" alt=""></div>
+            <div class=" grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="flex flex-col md:flex-row gap-5 shadow-xl rounded-lg p-4">
+                    <div><img class="w-full" src="Images/5.png" alt=""></div>
                     <div>
                         <div class="flex items-start gap-2">
                         <div class="flex items-center gap-1">
@@ -162,8 +167,8 @@
                     </div>
                 </div>
 
-                <div class="flex items-center gap-5 shadow-xl rounded-lg p-5">
-                    <div><img src="Images/6.png" alt=""></div>
+                <div class="flex flex-col md:flex-row gap-5 shadow-xl rounded-lg p-5">
+                    <div><img class="w-full" src="Images/6.png" alt=""></div>
                     <div>
                         <div class="flex items-start gap-2">
                         <div class="flex items-center gap-1">
@@ -195,8 +200,8 @@
                     </div>
                 </div>
 
-                <div class="flex items-center gap-5 shadow-xl rounded-lg p-5">
-                    <div><img src="Images/7.png" alt=""></div>
+                <div class="flex flex-col md:flex-row gap-5 shadow-xl rounded-lg p-5">
+                    <div><img class="w-full" src="Images/7.png" alt=""></div>
                     <div>
                         <div class="flex items-start gap-2">
                         <div class="flex items-center gap-1">
@@ -228,8 +233,8 @@
                     </div>
                 </div>
 
-                <div class="flex items-center gap-5 shadow-xl rounded-lg p-5">
-                    <div><img src="Images/8.png" alt=""></div>
+                <div class="flex flex-col md:flex-row gap-5 shadow-xl rounded-lg p-5">
+                    <div><img class="w-full" src="Images/8.png" alt=""></div>
                     <div>
                         <div class="flex items-start gap-2">
                         <div class="flex items-center gap-1">
@@ -261,8 +266,8 @@
                     </div>
                 </div>
 
-                <div class="flex items-center gap-5 shadow-xl rounded-lg p-5">
-                    <div><img src="Images/9.png" alt=""></div>
+                <div class="flex flex-col md:flex-row gap-5 shadow-xl rounded-lg p-5">
+                    <div><img class="w-full" src="Images/9.png" alt=""></div>
                     <div>
                         <div class="flex items-start gap-2">
                         <div class="flex items-center gap-1">
@@ -295,8 +300,8 @@
                 </div>
 
 
-                <div class="flex items-center gap-5 shadow-xl rounded-lg p-5">
-                    <div><img src="Images/10.png" alt=""></div>
+                <div class="flex flex-col md:flex-row gap-5 shadow-xl rounded-lg p-5">
+                    <div><img class="w-full" src="Images/10.png" alt=""></div>
                     <div>
                         <div class="flex items-start gap-2">
                         <div class="flex items-center gap-1">
@@ -330,6 +335,7 @@
             </div>
         </section>
 
+    <!-- Clients Question section Start -->
 
         <section class="my-24">
             <div class=" text-center  bg-white my-5 ">
@@ -337,8 +343,8 @@
                 <p class="font-medium py-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
             </div>
 
-            <div class="flex gap-5 shadow-xl p-4 mt-8 rounded-lg">
-                <div>
+            <div class="lg:flex gap-5 shadow-xl p-4 mt-8 rounded-lg">
+                <div class="mb-3 lg:mb-0">
                     <img src="Images/11.png" alt="">
                 </div>
 
@@ -351,31 +357,31 @@
                         </div>
                     <div class="collapse collapse-plus">
                         <input type="radio" name="my-accordion-3" checked="checked" />
-                        <div class="collapse-title text-xl font-semibold">Our Equipment</div>
+                        <div class="collapse-title text-xl font-semibold">Hockey Training</div>
                         <div class="collapse-content">
                             <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br> sagittis turpis in magna.</p>
                         </div>
                     <div class="collapse collapse-plus">
                         <input type="radio" name="my-accordion-3" checked="checked" />
-                        <div class="collapse-title text-xl font-semibold">Our Equipment</div>
+                        <div class="collapse-title text-xl font-semibold">Private Lessons</div>
                         <div class="collapse-content">
                             <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br> sagittis turpis in magna.</p>
                         </div>
                     <div class="collapse collapse-plus">
                         <input type="radio" name="my-accordion-3" checked="checked" />
-                        <div class="collapse-title text-xl font-semibold">Our Equipment</div>
+                        <div class="collapse-title text-xl font-semibold">Ski Touring</div>
                         <div class="collapse-content">
                             <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br> sagittis turpis in magna.</p>
                         </div>
                     <div class="collapse collapse-plus">
                         <input type="radio" name="my-accordion-3" checked="checked" />
-                        <div class="collapse-title text-xl font-semibold">Our Equipment</div>
+                        <div class="collapse-title text-xl font-semibold">Booking</div>
                         <div class="collapse-content">
                             <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br> sagittis turpis in magna.</p>
                         </div>
                     <div class="collapse collapse-plus">
                         <input type="radio" name="my-accordion-3" checked="checked" />
-                        <div class="collapse-title text-xl font-semibold">Our Equipment</div>
+                        <div class="collapse-title text-xl font-semibold">Pricings</div>
                         <div class="collapse-content">
                             <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim <br> sagittis turpis in magna.</p>
                         </div>
@@ -384,16 +390,18 @@
             </div>
         </section>
 
+    <!-- Get In Touch Section Start -->
+     
         <section class="my-24">
              <div class=" text-center  bg-white my-5 ">
-                <h2 class="text-4xl font-extrabold">Clients Question</h2>
+                <h2 class="text-4xl font-extrabold">Get In Touch</h2>
                 <p class="font-medium py-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
             </div>
 
             <div class="grid md:grid-cols-12 gap-4 mt-8">
                 
-                <div class="grid col-span-5">
-                    <div class=" p-8  bg-[#bced6d1a] rounded-lg">
+                <div class="hidden md:block lg:col-span-5">
+                    <div class=" p-8 bg-[#bced6d1a] rounded-lg">
                         <img src="Images/Group 1171275317.png" alt="">
                         <h2 class="mt-5 text-[16px] font-medium"><span class="font-normal">Phone Number :</span><br>  (+62) 123-321-543</h2>
                     </div>
@@ -409,8 +417,8 @@
                 </div>
 
 
-                <div class="grid col-span-7">
-                    <div class="flex gap-6">
+                <div class="mx-3 lg:mx-0 lg:grid col-span-7">
+                    <div class="lg:flex gap-6">
                         <div class="flex-1">
                             <label class="text-xl font-medium" for="">Your Name</label> <br>
                             <input class="w-full bg-gray-200 rounded-lg p-3 mt-2" type="text" placeholder="Enter your full name">
@@ -420,7 +428,7 @@
                             <input class="w-full bg-gray-200 rounded-lg p-3 mt-2" type="email" placeholder="Enter your email">
                         </div>
                     </div>
-                    <div class="flex gap-6 mt-6">
+                    <div class="lg:flex gap-6 mt-6">
                         <div class="flex-1">
                             <label class="text-xl font-medium" for="">Subject</label> <br>
                             <input class="w-full bg-gray-200 rounded-lg p-3 mt-2" type="text" placeholder="Enter your subject">
@@ -455,5 +463,44 @@
             </div>
         </section>
     </main>
+
+    <!-- fotter Section Start -->
+         <section>
+            <footer class="footer max-w-[1400px] mx-auto  bg-black text-white p-10">
+                <aside>
+                    <p class="footer-title text-2xl font-extrabold"> Get In Touch </p>
+                    <p>Dit amet consectetur. Condimentum <br> adipiscing aliquam turpis placerat dolor. Purus <br> urna in sit nullam proin. </p>
+
+                    <div class="flex items-center gap-x-3 mt-2">
+                       <i class="fa-regular fa-envelope"></i>
+                        <p>hockeys@support.com</p>
+                    </div>
+                    <div class="flex items-center gap-x-3">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>(+62) 123-321-543</p>
+                    </div>
+                </aside>
+                <nav>
+                    <h6 class="footer-title text-xl">Services</h6>
+                    <a class="link link-hover">Branding</a>
+                    <a class="link link-hover">Design</a>
+                    <a class="link link-hover">Marketing</a>
+                    <a class="link link-hover">Advertisement</a>
+                </nav>
+                <nav>
+                    <h6 class="footer-title text-xl">Company</h6>
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Jobs</a>
+                    <a class="link link-hover">Press kit</a>
+                </nav>
+                <nav>
+                    <h6 class="footer-title text-xl">Legal</h6>
+                    <a class="link link-hover">Terms of use</a>
+                    <a class="link link-hover">Privacy policy</a>
+                    <a class="link link-hover">Cookie policy</a>
+                </nav>
+                </footer>
+         </section>
 </body>
 </html>
