@@ -16,16 +16,12 @@
     <header class=" container space-y-4 mx-auto">
         
          <!-- navbar section -->
-        <div class="container mx-auto mt-8">
+        <div class="container mx-auto lg:px-0 px-4 mt-8">
             <div class="navbar">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
+                            <i class="text-3xl fa-solid fa-bars"></i>
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm space-x-1 dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
@@ -40,7 +36,7 @@
                             class="text-[#FF4240] font-extrabold text-4xl">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex space-x-1">
-                    <ul class="menu menu-horizontal px-2 text-sm">
+                    <ul class="menu menu-horizontal px-2 text-2xl">
                         <li class="text-[#FF4240] font-bold "><a>Home</a></li>
                         <li class="text-[#424247] "><a>About</a></li>
                         <li class="text-[#424247] "><a>Pages</a></li>
@@ -49,25 +45,39 @@
                     </ul>
                 </div>
                 <div class="navbar-end flex gap-6 items-center">
-                     <i class="fa-solid fa-magnifying-glass"></i>   
+                     <i class="text-2xl fa-solid fa-magnifying-glass"></i>   
                     <button class="btn bg-[#FF4240] px-2 lg:px-6  font-bold text-white text-base lg:text-xl">Get
                         Ticket</button>
                 </div>
             </div>
         </div>
 
-       <section>
+       <section class="lg:px-0 px-4 mt-8">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="Images/1.png" class="w-full" />
-                    <div class="absolute md:left-8 gap-x-4 md:bottom-8 flex -translate-y-1/2 transform ">
+                    <div class="absolute left-[168px] -bottom-3 md:left-8 gap-x-3 md:bottom-6 flex -translate-y-1/2 transform ">
                     <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
                     <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                    <img src="Images/hero.jfif" class="w-full" />
-                    <div class="absolute md:left-8 gap-x-4 md:bottom-8 flex -translate-y-1/2 transform ">
+                    <img src="Images/hokys3.avif" class="w-full" />
+                    <div class="absolute left-[168px] -bottom-3 md:left-8  md:bottom-6 gap-x-3 flex -translate-y-1/2 transform ">
+                    <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/hokys2.jpg" class="w-full" />
+                    <div class="absolute left-[168px] -bottom-3 md:left-8  md:bottom-6 gap-x-3 flex -translate-y-1/2 transform ">
+                    <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                    <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="Images/hokys fild.JPG" class="w-full" />
+                    <div class="absolute left-[168px] -bottom-3 md:left-8  md:bottom-6 gap-x-3 flex -translate-y-1/2 transform ">
                     <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
                     <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
                     </div>
@@ -86,7 +96,7 @@
 
     <!-- Profesonal section start -->
 
-        <section>
+        <section class="lg:px-0 px-4 mt-8">
             <div class=" text-center  bg-white my-5 ">
                 <h2 class="text-4xl font-extrabold">Professional Hockeys Club</h2>
                 <p class="font-medium py-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
@@ -118,7 +128,7 @@
 
     <!-- Program section start -->
 
-        <section class="container mx-auto px-6 lg:px-0 my-16">
+        <section class="container mx-auto lg:px-0 px-4 mt-8">
             <div class=" text-center  bg-white my-10 ">
                 <h2 class="text-4xl font-extrabold">Program Sections</h2>
                 <p class="font-medium py-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
@@ -156,14 +166,14 @@
 
     <!-- Our New Product Section Start -->
 
-        <section class="">
+        <section class=" lg:px-0 px-4 mt-8">
             <div class=" text-center  bg-white  my-10 ">
                 <h2 class="text-4xl font-extrabold">Our New Products</h2>
                 <p class="font-medium py-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
             </div>
 
             <div class=" grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="flex flex-col md:flex-row gap-5 shadow-xl rounded-lg p-4">
+                <div class="flex flex-col md:flex-row gap-5 shadow-xl border rounded-lg p-4">
                     <div><img class="w-full" src="Images/5.png" alt=""></div>
                     <div>
                         <div class="flex items-start gap-2">
@@ -196,7 +206,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col md:flex-row gap-5 shadow-xl rounded-lg p-5">
+                <div class="flex flex-col md:flex-row gap-5 shadow-lg border rounded-lg p-5">
                     <div><img class="w-full" src="Images/6.png" alt=""></div>
                     <div>
                         <div class="flex items-start gap-2">
@@ -229,7 +239,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col md:flex-row gap-5 shadow-xl rounded-lg p-5">
+                <div class="flex flex-col md:flex-row gap-5 shadow-lg border rounded-lg p-5">
                     <div><img class="w-full" src="Images/7.png" alt=""></div>
                     <div>
                         <div class="flex items-start gap-2">
@@ -262,7 +272,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col md:flex-row gap-5 shadow-xl rounded-lg p-5">
+                <div class="flex flex-col md:flex-row gap-5 shadow-lg border rounded-lg p-5">
                     <div><img class="w-full" src="Images/8.png" alt=""></div>
                     <div>
                         <div class="flex items-start gap-2">
@@ -295,7 +305,7 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col md:flex-row gap-5 shadow-xl rounded-lg p-5">
+                <div class="flex flex-col md:flex-row gap-5 shadow-lg border rounded-lg p-5">
                     <div><img class="w-full" src="Images/9.png" alt=""></div>
                     <div>
                         <div class="flex items-start gap-2">
@@ -329,7 +339,7 @@
                 </div>
 
 
-                <div class="flex flex-col md:flex-row gap-5 shadow-xl rounded-lg p-5">
+                <div class="flex flex-col md:flex-row gap-5 shadow-lg border rounded-lg p-5">
                     <div><img class="w-full" src="Images/10.png" alt=""></div>
                     <div>
                         <div class="flex items-start gap-2">
@@ -366,13 +376,13 @@
 
     <!-- Clients Question section Start -->
 
-        <section class="my-24">
+        <section class="lg:px-0 px-4 mt-8">
             <div class=" text-center  bg-white my-5 ">
                 <h2 class="text-4xl font-extrabold">Clients Question</h2>
                 <p class="font-medium py-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
             </div>
 
-            <div class="lg:flex gap-5 shadow-xl p-4 mt-8 rounded-lg">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 shadow-lg border p-4 mt-8 rounded-lg">
                 <div class="mb-3 lg:mb-0">
                     <img src="Images/11.png" alt="">
                 </div>
@@ -421,7 +431,7 @@
 
     <!-- Get In Touch Section Start -->
      
-        <section class="my-24">
+        <section class="lg:px-0 px-4 mt-8">
              <div class=" text-center  bg-white my-5 ">
                 <h2 class="text-4xl font-extrabold">Get In Touch</h2>
                 <p class="font-medium py-4">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
@@ -480,7 +490,7 @@
                 </div>
             </div>
 
-            <div class="w-full flex justify-center items-center my-12">
+            <div class="w-full flex justify-center items-center my-8 shadow-lg rounded-lg border p-5">
                 <div>
                     <h2 class="text-2xl font-extrabold">Social Media</h2>
                 <div class="flex gap-x-6 text-xl mt-3">
@@ -496,7 +506,7 @@
 
     <!-- fotter Section Start -->
 
-    <section class="bg-black ">
+    <section class="bg-black lg:px-0 px-4 mt-8 ">
         <footer class="footer container mx-auto p-10 grid grid-cols-1 lg:grid-cols-6 text-base-content justify-between">
 
             <aside class="flex-1 py-5 col-span-2 text-[#ffffff99] mt-5">
